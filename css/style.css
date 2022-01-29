@@ -1,44 +1,166 @@
-@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 body {
-  margin: 0;
-  padding: 0;
-  font-family: "Big Shoulders Display", cursive;
-  height: 100px;
+    font-family: 'Roboto', sans-serif;
+    background: url('https://media.discordapp.net/attachments/837045605292965958/844189718714777650/thumb-1920-909912.png');
 }
-.banner {
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
-.banner video {
-  position: fixed;
-  top: 0;
-  left: 0;
-  object-fit: cover;
-  width: 100%;
+
+.btn {
+    display: inline-block;
+    padding: 15px 40px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    background: #111;
+    color: #eee;
+    border-radius: 100px;
+    transition: background 2000ms ease;
 }
-.banner .content {
-  position: relative;
-  z-index: 1;
-  max-width: 1000px;
-  margin: 0 auto;
-  text-align: center;
+
+.btn:hover {
+    cursor: pointer;
+    background: #eee;
+    color: #000;
 }
-.banner .content h1 {
-  margin: 0;
-  padding: 0;
-  font-size: 5.5em;
-  text-transform: uppercase;
-  color: #ffff;
+
+.headline {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
 }
-.banner .content p {
-  font-size: 1.5em;
-  color: #ffff;
+
+/* Navbar */
+#navbar {
+    width: 100%;
+    background: #111;
+    color: #eee;
+    height: 80px;
+    position: fixed;
 }
-.banner .content img {
-  width: 40px;
-  height: 40px;
+
+#navbar-container {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar-container li:hover {
+    border-radius: 100px;
+    transition: background 2000ms ease;
+    padding: 10px 15px;
+    cursor: pointer;
+    background: #eee;
+    color: #000;
+}
+
+.logo {
+    width: 15%;
+}
+
+#navbar-items {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#navbar-items li {
+    padding: 10px;
+}
+
+/* Showcase */
+#showcase {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+    /*background: url('https://media.discordapp.net/attachments/837045605292965958/844189718714777650/thumb-1920-909912.png') no-repeat center center/cover;*/
+
+    /* Overlay */
+    /* background-color: rgba(0,0,0,0.5); */
+    background-blend-mode: color;
+}
+
+#showcase-container {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#showcase-container h2 {
+    font-size: 2.5rem;
+}
+
+#showcase-container p {
+    font-size: 1.2rem;
+    padding: 7px 0;
+}
+
+/* About */
+#features {
+    width: 100%;
+    background: rgba(255, 181, 85, 0.692);
+    color: rgb(238, 238, 238);
+    padding: 50px;
+}
+
+#features-container {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 50px;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    background: rgb(97, 75, 46);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Footer */
+#footer {
+    color: #eee;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Scroll bar */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background-color: black;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.25);
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 100px;
+    background-color: rgb(255, 255, 255);
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(255, 181, 85, 0.692);
 }
