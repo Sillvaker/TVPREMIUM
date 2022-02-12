@@ -1,0 +1,23 @@
+{
+  "name": "website-atlanta",
+  "version": "1.0.0",
+  "description": "Apenas brincando com a técnologia.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sillvaker/html-css.git"
+  },
+  "keywords": [],
+  "author": "https://www.instagram.com/5ilvaker/",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sillvaker/html-css/issues"
+  },
+  "homepage": "https://github.com/Sillvaker/html-css#readme",
+  "dependencies": {
+    "discord.js": "^13.6.0"
+  }
+}
