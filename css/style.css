@@ -8,8 +8,16 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    /*
     background: url('https://media.discordapp.net/attachments/837045605292965958/844189718714777650/thumb-1920-909912.png');
+    */
+    background: linear-gradient(to top, #CC9143, #806B50, #CC9143);
 }
+
+/*#background-two {
+    background: url('https://media.discordapp.net/attachments/936924873115177040/942948797573648444/2661876c820a17bffaab22f6c95d9ef600000.png');
+
+}*/
 
 a {
     text-decoration: none;
@@ -30,7 +38,7 @@ a {
 .btn:hover {
     cursor: pointer;
     background: #eee;
-    color: #000;
+    color: rgba(0, 0, 0, 0.37);
 }
 
 .headline {
@@ -44,8 +52,11 @@ a {
 
 /* Navbar */
 #navbar {
-    width: 100%;
-    background: #111;
+    width: 98%;
+    left: 1%;
+    top: 2%;
+    background: rgb(0, 0, 0);
+    border-radius: 100px;
     color: #eee;
     height: 80px;
     position: fixed;
@@ -115,7 +126,7 @@ a {
 /* About */
 #features {
     width: 100%;
-    background: rgba(255, 181, 85, 0.692);
+    background: #ffd6a12a;
     color: rgb(238, 238, 238);
     padding: 50px;
 }
@@ -143,6 +154,7 @@ a {
 
 /* Footer */
 #footer {
+    background-color: #000;
     color: #eee;
     padding: 30px;
     text-align: center;
