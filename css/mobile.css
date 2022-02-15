@@ -1,5 +1,7 @@
 #navbar {
-    height: 180px;
+    height: 100px;
+    border-radius: 0;
+    top: 3px;
 }
 
 #navbar-container {

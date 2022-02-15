@@ -16,7 +16,6 @@ body {
 
 /*#background-two {
     background: url('https://media.discordapp.net/attachments/936924873115177040/942948797573648444/2661876c820a17bffaab22f6c95d9ef600000.png');
-
 }*/
 
 a {
@@ -29,7 +28,7 @@ a {
     padding: 15px 40px;
     font-size: 1.1rem;
     text-transform: uppercase;
-    background: #111;
+    background: rgba(17, 17, 17, 0.575);
     color: #eee;
     border-radius: 100px;
     transition: background 2000ms ease;
@@ -37,8 +36,8 @@ a {
 
 .btn:hover {
     cursor: pointer;
-    background: #eee;
-    color: rgba(0, 0, 0, 0.37);
+    background: rgba(238, 238, 238, 0.600);
+    color: rgba(0, 0, 0);
 }
 
 .headline {
@@ -55,7 +54,7 @@ a {
     width: 98%;
     left: 1%;
     top: 2%;
-    background: rgb(0, 0, 0);
+    background: rgb(0, 0, 0, 0.600);
     border-radius: 100px;
     color: #eee;
     height: 80px;
@@ -127,6 +126,7 @@ a {
 #features {
     width: 100%;
     background: #ffd6a12a;
+    border-radius: 3em;
     color: rgb(238, 238, 238);
     padding: 50px;
 }
@@ -154,7 +154,8 @@ a {
 
 /* Footer */
 #footer {
-    background-color: #000;
+    background-color: rgb(0, 0, 0, 0.600);
+    border-radius: 3em 3em 0em 0em;
     color: #eee;
     padding: 30px;
     text-align: center;
